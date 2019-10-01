@@ -1,2 +1,2 @@
-puts "BOnjour, monde!"
-puts "Et avec une voix secy, ca donne : Bonjour, monde!"
+puts "Bonjour, monde!"
+puts "Et avec une voix sexy, ca donne : Bonjour, monde!"

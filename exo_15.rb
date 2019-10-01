@@ -5,9 +5,10 @@ range = 2019-num
 
 i=num
 range.times do |b|
-        print "#{i}  "
-        puts b
+        print "#{i} "
+        puts "#{b} ans"
 	i=i+1
 end
-print "2019  "
-puts range+1
+print "2019 "
+puts "#{range} ans"
+

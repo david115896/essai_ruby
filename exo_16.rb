@@ -1,4 +1,4 @@
-puts "Bonjour, donnes moi ton annee de age stp"
+puts "Bonjour, donnes moi ton age stp"
 print ">"
 age=gets.chomp.to_i
 
