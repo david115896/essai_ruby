@@ -1,0 +1,21 @@
+puts "Bonjour, donnes moi ton annee de age stp"
+print ">"
+age=gets.chomp.to_i
+
+
+i=age
+age.times do |b|
+        print "il y a #{i} ans, "
+        if b==0
+                puts "tu naissais"
+        elsif b==1
+                puts "tu avais #{b} an"
+	elsif b==i
+		puts "tu avais la moitie de l'age que tu as aujourd'hui"
+	else
+                puts "tu avais #{b} ans"
+        end
+        i=i-1
+end
+puts "cette annee tu as #{age} ans"
+
